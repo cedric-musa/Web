@@ -2,14 +2,27 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: rgb(151, 246, 151);
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3rem;
 }
 
 .juices {
-    background-color:aquamarine;
     text-align: center;
     padding: 50px 20px;
 }
