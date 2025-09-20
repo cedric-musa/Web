@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+.juices {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.juice-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.juice {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+}
+
+.juice img {
+    width: 100%;
+    border-radius: 8px;
+}
